@@ -122,13 +122,14 @@ body {
 @media (max-width: 375px) {
   body {
     background-size: 90%;
+    overflow: hidden;
   }
 
   .slide1,
   .slide2 {
     grid-template-rows: 300px 270px;
     right: initial;
-    top: 135px;
+    top: 35px;
     grid-template-columns: 1fr;
     width: 100%;
   }
@@ -173,7 +174,7 @@ body {
   }
 
   .arrows {
-    top: -55px;
+    top: -20px;
     left: 145px;
     height: 35px;
     width: 80px;
